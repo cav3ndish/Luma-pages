@@ -9,8 +9,8 @@ body {
 
 .bg-light{background-color: #6e7274d0!important;}
 img {
-    max-width: 300px;
-    max-height: 150px;
+    max-width: 500px;
+    max-height: 250px;
 margin: 10px;}
 p
 {font-family: 'Abel', sans-serif;}
@@ -55,12 +55,8 @@ span{
     h2,h1,h3,h4, p{
         text-align: center;
     }
+    .artist-description{display: none;}
     
-    .resize-img{
-        width: 80px;
-        display:block;
-        margin:0 auto;
-    }
        .logo-image {
            max-width: 50px;
        }
