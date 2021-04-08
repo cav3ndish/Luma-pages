@@ -1,7 +1,12 @@
+:root {
+    --header-text-color: rgb(73, 22, 6);
+}
+
+
 body {
     text-align: center;
      background-color: #6a6d6e;
-     color: rgb(73, 2, 17);
+     color: var(--header-text-color);
      font-family: 'Berkshire Swash', cursive;
     
 
@@ -12,10 +17,15 @@ img {
     max-width: 500px;
     max-height: 250px;
 margin: 10px;}
-p
+
+#talk-to-luma,p
 {font-family: 'Abel', sans-serif;}
 
 nav{border-radius: 4px;}
+
+ul{list-style:none;
+color: var(--header-text-color);}
+
 footer{
 height: 80px;
 left: 0px;
@@ -26,11 +36,33 @@ border-radius: 4px;
 span{
     align-items: center;
     margin:5px;}
- .hero h3{display: ;
+svg{    
+color: var(--header-text-color);}
+
+svg:hover{
+    transition:all 200ms ease-in-out;
+    color:white;
+}
+.free-link:hover{
+    transition: all 200ms ease-in-out;
+    color: var(--header-text-color);
+}
+
+ .hero h3{
+     display: block;
     margin: 0 auto;
-     max-width: 800px;}
-.hero {border-radius: 4px;
-    background: linear-gradient(0deg, rgba(7, 7, 7, 0.5) 5%, rgba(134, 2, 2, 0.2) 80%);}    
+    line-height: 100px;}
+     .hero h2 {
+         display: block;
+         margin: 0 auto;
+         color: rgba(83, 83, 83, 0.83);
+    line-height: 100px;}
+    .hero-content{
+    display: block;
+    margin: 0 auto;
+    max-width: 800px;}
+
+
 .copyright {
     margin-right: 30px;
     font-size: 15px;
