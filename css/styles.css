@@ -111,6 +111,7 @@ border-radius: 5px;}
        .logo-image {
            max-width: 50px;
        }
+       .index-img{max-width: 200px;}
        .hero-content, .content-small{font-size: 23px;
     line-height: 1,5;
     margin: 0;
