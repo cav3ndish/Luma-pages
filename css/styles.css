@@ -97,6 +97,7 @@ border-bottom:solid 2px var(--header-text-color);}
     height: 500px;
 width: 700px;
 }    
+
 .small-room{max-width:500px;}
 .smaller-room{max-width: 350px;}
 .large-room{width:800px}
