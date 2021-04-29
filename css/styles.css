@@ -97,7 +97,7 @@ border-bottom:solid 2px var(--header-text-color);}
     height: 500px;
 width: 700px;
 }    
-
+.tall-img{height: 800px!important;}
 .small-room{max-width:500px;}
 .smaller-room{max-width: 350px;}
 .large-room{width:800px}
@@ -114,7 +114,7 @@ border-radius: 5px;}
            max-width: 50px;
        }
        .index-img{max-width: 200px;}
-       .hero-content, .content-small{font-size: 23px;
+       .hero-content{font-size: 23px;
     line-height: 1,5;
     margin: 0;
 }
