@@ -12,6 +12,7 @@ svg:hover{transition:all 200ms ease-in-out; color:white;}
 .underline-part1{margin:0;border-bottom:solid 2px  rgba(83, 83, 83, 0.83);}
 .underline-part2{margin:0;border-bottom:solid 2px var(--header-text-color);}
 .free-link:hover{transition: all 200ms ease-in-out;color: var(--header-text-color);}
+.nav-link{font-weight: bolder;}
 .hero h3{display: block; margin: 0 auto; }
 .hero h2 {display: block;margin: 0 auto;color: rgba(83, 83, 83, 0.83);line-height: 100px;}
 .hero-content{display: block;margin: 0 auto;max-width: 800px;}
