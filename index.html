@@ -149,7 +149,7 @@
             <div class="col">
                 <img src="/images/watermark/Salvo.jpg" class="img-fluid border shadow-sm rounded m-5 p-2 index-img" id="salvo-lavalle" alt="Oil on canvas Salvo"></img>
         <h6>
-                  Salvo, "La valle/Paesaggio mistico", cm 60 x 30, 2003, oil on canvas
+                  Salvo, "La valle", cm 60 x 30, 2003, oil on canvas
                 </h6>
             </div>
         
@@ -351,6 +351,22 @@ objects for everyday use. Famous are the shutters, mirrors and windows, which be
         
 </div>
 </div> 
+
+<button id="myBtn" onclick="topFunction()"  title="Go to top">Top</button>
+<script>
+ mybutton = document.getElementById("myBtn");
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
+function topFunction() {
+  document.body.scrollTop = 0; 
+  document.documentElement.scrollTop = 0; 
+}
+</script>
 
 <div class="flexbox">
     <p class="p-3"><a href="/photo.html" class="free-link">Recent additions to our stock</a></p>
