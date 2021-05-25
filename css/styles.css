@@ -1,7 +1,7 @@
 :root {--header-text-color: rgb(73, 22, 6);}
 body {text-align: center;background-color: #6a6d6ebb;color: var(--header-text-color);font-family: 'Abel', sans-serif;}
 .bg-light{background-color: #6e7274d0!important;}
-.index-img {max-width: 500px;max-height: 250px;margin: 10px;}
+.index-img {max-width: 400px; max-height: 300px;margin: 10px;}
 #talk-to-luma,p{font-family: 'Abel', sans-serif;}
 nav{border-radius: 4px;z-index: 2;}
 ul{list-style:none;color: var(--header-text-color);}
