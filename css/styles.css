@@ -37,13 +37,3 @@ svg:hover{transition:all 200ms ease-in-out; color:white;}
 .small-room, .smaller-room {max-width: 120px;}
 .carousel-inner{max-height: 250px;}}
 
-#myBtn {display: none;
-     position: fixed; 
-      bottom: 20px; 
-      right: 30px; 
-      z-index: 99; 
-      border: none;
-       outline: none; 
-       background-color: red; 
-    color: white; cursor: pointer; padding: 150px; border-radius: 10px; font-size: 18px;}
-#myBtn:hover {background-color: #555; }
