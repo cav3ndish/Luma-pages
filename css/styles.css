@@ -22,10 +22,10 @@ svg:hover{transition:all 200ms ease-in-out; color:white;}
 .logo-image { max-width: 100px;border-radius: 4px;}
 .carousel-inner{height: 700px;}
 .carousel-img{margin: 10px auto;height: 500px;width: 700px;}    
-.tall-img{height: 800px!important;}
+.tall-img{height: 800px;}
 .small-room{max-width:500px;}
 .smaller-room{max-width: 350px;}
-.large-room{width:800px}
+.large-room{width:800px!important}
 .carousel-img:hover{border: 2px solid var(--header-text-color);border-radius: 5px;}
 @media (max-width: 500px) { p,h2,h1,h3,h4, p{text-align: center;font-size: smaller;}
     .artist-description{display: none;}
