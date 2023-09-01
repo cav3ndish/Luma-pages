@@ -9,7 +9,7 @@ ul{list-style:none;color: var(--header-text-color);}
 footer{height: 80px;left: 0px;margin-bottom: 0px;border-radius: 4px;}
 span{align-items: center;margin:5px;}
 svg{color: var(--header-text-color);}
-svg:hover{transition:all 200ms ease-in-out; color:white;}
+svg:hover{transition:all 200ms ease-in-out; color:rgb(150, 145, 145);}
 .underline-part1{margin:0;border-bottom:solid 2px  rgba(83, 83, 83, 0.83);}
 .underline-part2{margin:0;border-bottom:solid 2px var(--header-text-color);}
 .free-link:hover{transition: all 200ms ease-in-out;color: var(--header-text-color);}
