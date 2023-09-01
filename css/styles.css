@@ -1,5 +1,5 @@
 :root {--header-text-color: rgb(73, 22, 6);}
-body {text-align: center;background-color: #6a6d6ebb;color: var(--header-text-color);font-family: 'Abel', sans-serif;}
+body {text-align: center;background-color: #e5eaecbb;color: var(--header-text-color);font-family: 'Abel', sans-serif;}
 .bg-light{background-color: #6e7274d0!important;}
 .index-img {max-width: 400px; max-height: 300px;margin: 10px;}
 .img-sold {max-width: 150px; max-height: 150px;margin: 5px;}
@@ -19,7 +19,7 @@ svg:hover{transition:all 200ms ease-in-out; color:white;}
 .hero-content{display: block;margin: 0 auto;max-width: 800px;}
 .img-fluid{ max-width: 300px;max-height: 500px;}
 .copyright { margin-right: 30px;font-size: 15px;text-align: center;font-family: 'Abel', sans-serif;line-height: 40px;}
- .free-link {padding: 5px; border-radius: 10px;border: 1px solid grey;text-decoration: none;color: antiquewhite;}
+ .free-link {padding: 5px; border-radius: 10px;border: 1px solid grey;text-decoration: none;color: rgb(73, 22, 6);}
 .logo-image { max-width: 100px;border-radius: 4px;}
 .carousel-inner{height: 700px;}
 .carousel-img{margin: 10px auto;height: 500px;width: 700px;}    
